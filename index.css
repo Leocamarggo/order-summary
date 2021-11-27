@@ -1,0 +1,158 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+
+
+/* Mobile Style */
+@media only screen and (max-width: 799px) {
+    body {
+      background: hsl(225, 100%, 94%);
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        background: url('./images/pattern-background-desktop.svg') no-repeat;
+        background-size:100%;
+        background-color:hsl(225, 100%, 94%) ;
+    }
+}
+body{
+    margin: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 330px;
+    height: 570px;
+    background: #fff;
+    border-radius: 1.5em;
+}
+
+.guyBanner {
+    width: 330px;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.orderSummary{
+    margin-top: 30px;
+}
+.order{
+    text-align: center;
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.paragraph{
+    width: 270px;
+    margin: 0 auto;
+}
+
+.textParagraph {
+    text-align: center;
+    line-height: 1.75;
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+}
+.outsidePlan{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.plan {
+    display: flex;
+    justify-content: space-evenly;
+    height: 52px;
+    background: #f8f9fe;
+    border-radius: 12px;
+    width: 294px;
+    padding: 10px 0;
+}
+.plan p {
+    margin: 0;
+}
+
+.planAct{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: -10px;
+}
+
+.planAnnual {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.planVal {
+    color: hsl(224, 23%, 55%);
+    font-size: 17px;
+}
+
+.changeBtn {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.changeBtn a {
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.proceed{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    font-weight: 700;
+    box-shadow: 0px 10px 40px #b4b4b4;
+    cursor: pointer;
+}
+
+.cancel{
+    margin-top: 25px;
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+
+
+/* Footer */
+.attribution{
+    font-size: 11px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
